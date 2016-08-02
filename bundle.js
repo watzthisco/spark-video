@@ -8389,8 +8389,8 @@
 	var ciscospark = new _sparkCore2.default({
 	  credentials: {
 	    authorization: {
-	      access_token: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).CISCOSPARK_ACCESS_TOKEN,
-	      refresh_token: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).CISCOSPARK_REFRESH_TOKEN
+	      access_token: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).CISCOSPARK_ACCESS_TOKEN,
+	      refresh_token: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).CISCOSPARK_REFRESH_TOKEN
 	    }
 	  },
 	  config: _config2.default
@@ -15665,8 +15665,8 @@
 	  },
 
 	  /* eslint no-extra-parens: [0] */
-	  RequestLoggerInterceptor: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_NETWORK_LOGGING || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_VERBOSE_NETWORK_LOGGING ? _requestLogger2.default.create : undefined,
-	  ResponseLoggerInterceptor: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_NETWORK_LOGGING || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_VERBOSE_NETWORK_LOGGING ? _responseLogger2.default.create : undefined,
+	  RequestLoggerInterceptor: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_NETWORK_LOGGING || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_VERBOSE_NETWORK_LOGGING ? _requestLogger2.default.create : undefined,
+	  ResponseLoggerInterceptor: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_NETWORK_LOGGING || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_VERBOSE_NETWORK_LOGGING ? _responseLogger2.default.create : undefined,
 	  RequestTimingInterceptor: _requestTiming2.default.create,
 	  UrlInterceptor: undefined,
 	  AuthInterceptor: undefined,
@@ -15818,7 +15818,7 @@
 	    /* eslint no-console: [0] */
 	    console.warn(message);
 	    /* istanbul ignore else */
-	    if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).NODE_ENV !== 'production') {
+	    if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).NODE_ENV !== 'production') {
 	      throw new Error(message);
 	    }
 	  }
@@ -18977,7 +18977,7 @@
 	var debugEnviron;
 	exports.debuglog = function(set) {
 	  if (isUndefined(debugEnviron))
-	    debugEnviron = ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).NODE_DEBUG || '';
+	    debugEnviron = ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).NODE_DEBUG || '';
 	  set = set.toUpperCase();
 	  if (!debugs[set]) {
 	    if (new RegExp('\\b' + set + '\\b', 'i').test(debugEnviron)) {
@@ -27938,7 +27938,7 @@
 	        console.log('User ID:', (0, _get2.default)(this, 'spark.device.userId'));
 	      }
 	      var now = new Date();
-	      if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_VERBOSE_NETWORK_LOGGING) {
+	      if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_VERBOSE_NETWORK_LOGGING) {
 	        console.log('timestamp (start): ', now.getTime(), now.toISOString());
 	        try {
 	          // Determine if body is a buffer without relying on Buffer to avoid
@@ -28069,7 +28069,7 @@
 	      var now = new Date();
 	      this.printResponseHeader(options, response);
 
-	      if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_VERBOSE_NETWORK_LOGGING) {
+	      if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_VERBOSE_NETWORK_LOGGING) {
 	        console.log('timestamp (end): ', now.getTime(), now.toISOString());
 
 	        if (typeof response.body === 'string' || Buffer.isBuffer(response.body)) {
@@ -28100,7 +28100,7 @@
 	      var now = new Date();
 	      this.printResponseHeader(options, reason);
 
-	      if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_VERBOSE_NETWORK_LOGGING) {
+	      if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_VERBOSE_NETWORK_LOGGING) {
 	        console.log('timestamp (end): ', now.getTime(), now.toISOString());
 	        try {
 	          console.error('Response: ', _util2.default.inspect(reason.body, { depth: null }));
@@ -30476,10 +30476,10 @@
 	    clientType: "public",
 	    oauth: {
 	      authorizationUrl: "https://idbroker.webex.com/idb/oauth2/v1/authorize",
-	      client_id: ("C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5") || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).COMMON_IDENTITY_CLIENT_ID || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).CLIENT_ID,
-	      client_secret: ("58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8") || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).COMMON_IDENTITY_CLIENT_SECRET || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).CLIENT_SECRET,
-	      redirect_uri: ("http://tropo.watzthis.com") || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).COMMON_IDENTITY_REDIRECT_URI || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).REDIRECT_URI,
-	      scope: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).CISCOSPARK_SCOPE || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).COMMON_IDENTITY_SCOPE || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).SCOPE,
+	      client_id: ("C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5") || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).COMMON_IDENTITY_CLIENT_ID || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).CLIENT_ID,
+	      client_secret: ("58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8") || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).COMMON_IDENTITY_CLIENT_SECRET || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).CLIENT_SECRET,
+	      redirect_uri: ("http://tropo.watzthis.com") || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).COMMON_IDENTITY_REDIRECT_URI || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).REDIRECT_URI,
+	      scope: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).CISCOSPARK_SCOPE || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).COMMON_IDENTITY_SCOPE || ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).SCOPE,
 	      service: "spark",
 	      revokeUrl: "https://idbroker.webex.com/idb/oauth2/v1/revoke",
 	      tokenUrl: "https://idbroker.webex.com/idb/oauth2/v1/access_token"
@@ -34680,7 +34680,7 @@
 	 * @returns {Promise<MediaStream>} The resultant MediaStream
 	 */
 	function getUserMedia(constraints) {
-	  (0, _defaults2.default)(constraints, { fake: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).NODE_ENV === 'test' });
+	  (0, _defaults2.default)(constraints, { fake: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).NODE_ENV === 'test' });
 	  return navigator.mediaDevices.getUserMedia(constraints);
 	}
 
@@ -34716,7 +34716,7 @@
 	  return pc.createOffer(offerOptions).then((0, _common.tap)(function (offer) {
 	    offer.sdp = limitBandwith(offer.sdp);
 	  })).then((0, _common.tap)(function (offer) {
-	    if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).LOG_SDP) {
+	    if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).LOG_SDP) {
 	      // eslint-disable-next-line no-console
 	      console.log('offer', offer.sdp);
 	    }
@@ -34740,7 +34740,7 @@
 	 * @returns {Promise}
 	 */
 	var acceptAnswer = exports.acceptAnswer = (0, _curry2.default)(function (pc, sdp) {
-	  if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).LOG_SDP) {
+	  if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).LOG_SDP) {
 	    // eslint-disable-next-line no-console
 	    console.log('answer', sdp);
 	  }
@@ -39648,7 +39648,7 @@
 
 	          _this4.logger.info('mercury: failed to connect; attempting retry ' + (number + 1) + ' in ' + delay + ' ms');
 	          /* istanbul ignore if */
-	          if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).NODE_ENV === 'development') {
+	          if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).NODE_ENV === 'development') {
 	            _this4.logger.debug('mercury: ', err, err.stack);
 	          }
 	          return;
@@ -39748,7 +39748,7 @@
 	    var _this5 = this;
 
 	    var envelope = event.data;
-	    if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).ENABLE_MERCURY_LOGGING) {
+	    if (({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).ENABLE_MERCURY_LOGGING) {
 	      this.logger.debug('mercury: message envelope: ', envelope);
 	    }
 
@@ -41693,28 +41693,28 @@
 	     * Milliseconds between pings sent up the socket
 	     * @type {number}
 	     */
-	    pingInterval: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).MERCURY_PING_INTERVAL || 15000,
+	    pingInterval: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).MERCURY_PING_INTERVAL || 15000,
 	    /**
 	     * Milliseconds to wait for a pong before declaring the connection dead
 	     * @type {number}
 	     */
-	    pongTimeout: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).MERCURY_PONG_TIMEOUT || 14000,
+	    pongTimeout: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).MERCURY_PONG_TIMEOUT || 14000,
 	    /**
 	     * Maximum milliseconds between connection attempts
 	     * @type {Number}
 	     */
-	    backoffTimeMax: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).MERCURY_BACKOFF_TIME_MAX || 32000,
+	    backoffTimeMax: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).MERCURY_BACKOFF_TIME_MAX || 32000,
 	    /**
 	     * Initial milliseconds between connection attempts
 	     * @type {Number}
 	     */
-	    backoffTimeReset: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).MERCURY_BACKOFF_TIME_RESET || 1000,
+	    backoffTimeReset: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).MERCURY_BACKOFF_TIME_RESET || 1000,
 	    /**
 	     * Milliseconds to wait for a close frame before declaring the socket dead and
 	     * discarding it
 	     * @type {[type]}
 	     */
-	    forceCloseDelay: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).MERCURY_FORCE_CLOSE_DELAY || 2000
+	    forceCloseDelay: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).MERCURY_FORCE_CLOSE_DELAY || 2000
 	  }
 	};
 	//# sourceMappingURL=config.js.map
@@ -43132,7 +43132,7 @@
 	exports.default = {
 	  device: {
 	    preDiscoveryServices: {
-	      wdmServiceUrl: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).WDM_SERVICE_URL || "https://wdm-a.wbx2.com/wdm/api/v1"
+	      wdmServiceUrl: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).WDM_SERVICE_URL || "https://wdm-a.wbx2.com/wdm/api/v1"
 	    },
 	    defaults: {
 	      name: process.title || typeof window !== "undefined" && "browser" || "javascript",
@@ -43519,7 +43519,7 @@
 	    value = value || {};
 	    (0, _defaults2.default)(value, {
 	      appType: this.config.appType,
-	      env: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).NODE_ENV || 'development',
+	      env: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).NODE_ENV || 'development',
 	      version: this.spark.version,
 	      time: Date.now(),
 	      postTime: Date.now()
@@ -45714,7 +45714,7 @@
 	 */
 
 	exports.default = {
-	  hydraServiceUrl: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":""}).HYDRA_SERVICE_URL || "https://api.ciscospark.com/v1",
+	  hydraServiceUrl: ({"CISCOSPARK_CLIENT_ID":"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5","CISCOSPARK_CLIENT_SECRET":"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8","CISCOSPARK_REDIRECT_URI":"http://tropo.watzthis.com","CISCOSPARK_SCOPES":"spark:people_read spark:rooms_read"}).HYDRA_SERVICE_URL || "https://api.ciscospark.com/v1",
 	  credentials: {
 	    clientType: "confidential"
 	  }
