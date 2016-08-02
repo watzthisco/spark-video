@@ -31,7 +31,7 @@ var spark = require('ciscospark');
 9. kick off a login flow in index.js
 
 ```
-ciscospark.authorize()
+spark.authorize()
 ```
   
 10. Store the response from cisco
