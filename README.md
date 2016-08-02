@@ -3,34 +3,47 @@ Lab instructions:
 # Install Node
 # Create a project directory.
 3. Initialize npm
+
     ```
     npm init
     ```
+    
 4. Install ciscospark
+
     ```
     npm install --save ciscospark
     ```
+    
 5. Install webpack
+
     ```
     npm install webpack
     ```
+    
 6. Register a new application in the developer portal (Integration)
 7. Create a file named index.js in your project
 8. Require ciscospark in index.js
+
     ```
     var spark = require('ciscospark');
     ```
+    
 9. kick off a login flow in index.js
+
     ```
     spark.authorize()
     ```
+    
 10. Store the response from cisco
+
     ```
     spark.on('change:authorization', function() {
       localStorage.setItem('credentials', JSON.stringify(spark.credentials));
     });
     ```
+    
 11. Refresh tokens
+
     ```
     var credentials = localStorage.getItem('credentials');
     if (credentials) {
@@ -41,11 +54,15 @@ Lab instructions:
         });
     }
     ```
+    
 12. To start listening for calls
+
     ```
       spark.phone.register();
     ```
+    
 13. Cache credentials between page load:
+
     ```
       spark.on('change:credentials', function() {
         localStorage.setItem('credentials', JSON.stringify(spark.credentials));
@@ -54,7 +71,9 @@ Lab instructions:
         localStorage.setItem('device', JSON.stringify(spark.device));
       });
     ```
+    
 14. Place a call
+
     ```
     const call = spark.phone.dial('alice@example.com');
     call.on('connected', function() {
@@ -66,7 +85,9 @@ Lab instructions:
       document.getElementById('outgoing-video').muted = true;
     });
     ```
+    
 15. Listen for calls
+
     ```
     spark.phone.on('call:incoming', function(call) {
       // Set up listeners to update the UI if the callee chooses to answer the call.
@@ -86,7 +107,9 @@ Lab instructions:
       call.anwser();
     });
     ```
+    
 16. Create your html document
+
     ```
       <!DOCTYPE html>
       <html>
@@ -105,7 +128,9 @@ Lab instructions:
       </body>
       </html>
     ```
+    
 17. Create webpack.config.js with this content
+
     ```
     var webpack = require('webpack');
     
@@ -131,8 +156,11 @@ Lab instructions:
         ]
     };
     ```
+    
 18. make the bundle
+
     ```
       webpack
     ```
+    
 19. Deploy the app to the url you used as the redirect URL and open index.html in a browser.
