@@ -1,4 +1,4 @@
-Making and receiving video calls with Cisco Spark JS API
+#Making and receiving video calls with Cisco Spark JS API
 
 1. Install Node
 2. Create a project directory.
