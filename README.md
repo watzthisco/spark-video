@@ -1,7 +1,7 @@
-Lab instructions:
+Making and receiving video calls with Cisco Spark JS API
 
-# Install Node
-# Create a project directory.
+1. Install Node
+2. Create a project directory.
 3. Initialize npm
 
     ```
