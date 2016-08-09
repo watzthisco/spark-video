@@ -16,7 +16,7 @@ module.exports = {
                 'CISCOSPARK_CLIENT_ID': '"C0c905e0e09739a7d741ba29cd11d029200c94c4aa28e1ebebcd0d9c4301536c5"',
                 'CISCOSPARK_CLIENT_SECRET': '"58da597b9d2d0f30dff3d6e4d1339efd2581c2d61a29d91aaacda3fc1f7032a8"',
                 'CISCOSPARK_REDIRECT_URI': '"http://tropo.watzthis.com"',
-                'CISCOSPARK_SCOPES': '"webexsquare:get_conversation identity:SCIM"'
+                'CISCOSPARK_SCOPES': '"webexsquare:get_conversation Identity:SCIM"'
             }
         })
     ]
